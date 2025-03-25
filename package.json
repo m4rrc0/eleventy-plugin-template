@@ -2,8 +2,9 @@
   "name": "@scope/plugin-name",
   "version": "1.0.0",
   "description": "Description of plugin",
+  "type": "module",
   "homepage": "",
-  "main": ".eleventy.js",
+  "main": "eleventy.config.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
