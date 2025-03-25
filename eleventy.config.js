@@ -1,7 +1,7 @@
 // Example use for the demo plugin:
 // {{ 'Steph' | hello | safe }}
 
-module.exports = (eleventyConfig, options) => {
+export default function(eleventyConfig, options) {
   // Define defaults for your plugin config
   const defaults = {
     htmlTag: "h2",
@@ -17,4 +17,4 @@ module.exports = (eleventyConfig, options) => {
 
     return `<${htmlTag}>Hello, ${name}!</${htmlTag}>`;
   });
-};
+}
